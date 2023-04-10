@@ -4,10 +4,39 @@
   --button-color: blue;
   --logo-color: #4d5ae5;
 }
-.body {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+}
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+}
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
 }
 .list {
   list-style: none;
@@ -23,8 +52,14 @@
 .span {
   color: #2e2f42;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /*-------heder-------*/
 .header {
+  background-color: WHITE;
+  padding-top: 24px;
 }
 .header-navigation {
 }
@@ -54,6 +89,10 @@
 .hero {
   background-color: #2e2f42;
 }
+.hero-section {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-size: 56px;
@@ -61,6 +100,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--main-title-color, #ffffff);
+  margin: 0 auto;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -70,6 +110,7 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  margin-top: 48px;
 }
 .hero-button:is(:hover, :focus) {
   background-color: #404bbf;
@@ -77,8 +118,6 @@
 }
 /*-------Working Principles-------*/
 .principles {
-}
-.principles-list {
 }
 .principles-item {
 }
@@ -89,6 +128,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .principles-text,
 .team-text {
@@ -97,6 +137,8 @@
   letter-spacing: 0.02em;
 }
 /*-------What are we doing-------*/
+.doing {
+}
 .doing-title {
   font-size: 36px;
   line-height: 1.11;
@@ -104,8 +146,6 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-}
-.doing-list {
 }
 .doing-item {
 }
@@ -122,8 +162,6 @@
   background-color: #f4f4fd;
 }
 .team-title {
-}
-.team-list {
 }
 .team-name,
 .team-item {
@@ -148,7 +186,7 @@
 .contacts-link {
   color: #434455;
 }
-/*---filters---*/
+/*---section Filters---*/
 .filter-button {
   color: var(--main-button-color, blue);
   cursor: pointer;
@@ -160,6 +198,8 @@
 .filter {
 }
 .filter-list {
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 .list {
 }
@@ -180,9 +220,10 @@
   background-color: #404bbf;
   cursor: pointer;
 }
-/*-------row 1-------*/
+/*-------section List-------*/
 
 .img-list {
+  padding-bottom: 120px;
 }
 .list {
 }
@@ -197,6 +238,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--second-title-color);
+  margin-bottom: 8px;
 }
 .img-text,
 .img-text,
